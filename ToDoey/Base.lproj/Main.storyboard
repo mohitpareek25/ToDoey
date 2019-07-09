@@ -13,7 +13,7 @@
         <scene sceneID="Ron-2k-4A2">
             <objects>
                 <tableViewController id="5gE-zR-bae" customClass="ToDoListViewController" customModule="ToDoey" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="HLM-so-ZtB">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="HLM-so-ZtB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="5gE-zR-bae" id="rTS-Tu-oP1"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ToDoey" id="2uw-7F-XmH"/>
+                    <navigationItem key="navigationItem" title="ToDoey" id="2uw-7F-XmH">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="A8W-CF-XxC">
+                            <color key="tintColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="5gE-zR-bae" id="Kap-cK-eng"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="upt-hq-7Ce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
