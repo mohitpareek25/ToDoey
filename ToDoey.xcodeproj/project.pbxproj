@@ -12,7 +12,7 @@
 		DE92CA4B22D45D660023C21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE92CA4922D45D660023C21F /* Main.storyboard */; };
 		DE92CA4D22D45D670023C21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE92CA4C22D45D670023C21F /* Assets.xcassets */; };
 		DE92CA5022D45D670023C21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE92CA4E22D45D670023C21F /* LaunchScreen.storyboard */; };
-		DE92CA5E22D4B4530023C21F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92CA5D22D4B4530023C21F /* Item.swift */; };
+		DE92CA5E22D4B4530023C21F /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92CA5D22D4B4530023C21F /* item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		DE92CA4C22D45D670023C21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE92CA4F22D45D670023C21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE92CA5122D45D670023C21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE92CA5D22D4B4530023C21F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DE92CA5D22D4B4530023C21F /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 		DE92CA5922D4AC030023C21F /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				DE92CA5D22D4B4530023C21F /* Item.swift */,
+				DE92CA5D22D4B4530023C21F /* item.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE92CA4822D45D660023C21F /* ToDoListViewController.swift in Sources */,
-				DE92CA5E22D4B4530023C21F /* Item.swift in Sources */,
+				DE92CA5E22D4B4530023C21F /* item.swift in Sources */,
 				DE92CA4622D45D660023C21F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
